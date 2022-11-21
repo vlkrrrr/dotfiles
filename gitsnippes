@@ -1,0 +1,5 @@
+Put into .gitconfig:
+
+[alias]
+	c = commit
+	wip = "!f() { git commit -a -m \"autowip\" && git push; }; f"
